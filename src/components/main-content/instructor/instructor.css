@@ -14,7 +14,7 @@
 
 .individual-img-instructor-2 {
   width: 48%;
-  height: 542px;
+  height: 524px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -23,6 +23,6 @@
   }
 
   .individual-img-instructor-2 {
-    height: 194px;
+    height: 180px;
   }
 }
