@@ -1,0 +1,17 @@
+.footer {
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: gray;
+}
+
+.footer-text {
+  text-align: center;
+  font-weight: bold;
+  color: brown;
+  vertical-align: middle;
+  font-size: large;
+  padding: 12px;
+}

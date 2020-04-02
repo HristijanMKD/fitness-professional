@@ -1,0 +1,24 @@
+.text-wrapper {
+  text-align: center;
+}
+
+.li-container {
+  margin-left: 35%;
+  width: 100%;
+}
+
+.individual-li {
+  transition: transform 0.5s;
+  width: 70%;
+  font-size: 17px;
+}
+
+.individual-li:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 600px) {
+  .li-container {
+    margin-left: 0%;
+  }
+}

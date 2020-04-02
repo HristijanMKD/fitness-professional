@@ -1,0 +1,32 @@
+.location-container {
+  width: 100%;
+}
+
+.img-map {
+  width: 100%;
+}
+
+.text-img-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.location-img-wrapper {
+  width: 50%;
+}
+
+.location-text-wrapper {
+  width: 38%;
+}
+
+@media only screen and (max-width: 600px) {
+  .location-img-wrapper {
+    width: 100%;
+  }
+  .text-img-wrapper {
+    display: block;
+  }
+  .location-text-wrapper {
+    width: 100%;
+  }
+}

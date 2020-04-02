@@ -1,0 +1,28 @@
+.instructor-container {
+  width: 100%;
+}
+
+.instructor-img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.individual-img-instructor {
+  width: 48%;
+  height: 70%;
+}
+
+.individual-img-instructor-2 {
+  width: 48%;
+  height: 542px;
+}
+
+@media only screen and (max-width: 600px) {
+  .individual-img-instructor {
+    height: 70%;
+  }
+
+  .individual-img-instructor-2 {
+    height: 194px;
+  }
+}
